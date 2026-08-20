@@ -1,4 +1,4 @@
-# MultimodalRAG
+# MultimodaRAG
 
 **MultimodalRAG** is an advanced Retrieval-Augmented Generation (RAG) system designed to process and query PDF documents containing **text, images, and tables**. It leverages **multimodal embeddings**, **semantic retrieval**, and **Large Language Models (LLMs)** via Groq to deliver accurate, source-grounded answers.
 
@@ -30,7 +30,7 @@
 | Component  | Technology                 | Description                     |
 | ---------- | -------------------------- | ------------------------------- |
 | Frontend   | Streamlit                  | Interactive web UI              |
-| Vector DB  | Qdrant                     | High-performance vector search  |
+| Vector DB  | Pinecone                    | High-performance vector search  |
 | Embeddings | CLIP / BGE / OpenAI        | Multimodal encoding models      |
 | LLMs       | Groq API                   | Access to GPT, Claude, LLaMA    |
 | Parsing    | PyMuPDF / Tesseract        | Text/table/OCR extraction       |
